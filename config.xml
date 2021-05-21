@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="moi.vuforiatest" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="fr.happinov.test.vuforiatest" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>VuforiaTest</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -13,28 +13,11 @@
     <preference name="webviewbounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="BackupWebStorage" value="none" />
-    <allow-intent href="http://*/*" />
-    <allow-intent href="https://*/*" />
-    <allow-intent href="tel:*" />
-    <allow-intent href="sms:*" />
-    <allow-intent href="mailto:*" />
-    <allow-intent href="geo:*" />
     <platform name="android">
-		<engine name="android" spec="~6.4.0" />
-		<preference name="android-minSdkVersion" value="21" />
+        <preference name="android-minSdkVersion" value="21" />
     </platform>
     <platform name="ios">
-		<engine name="ios" spec="~4.5.5" />
-        <allow-intent href="itms:*" />
-        <allow-intent href="itms-apps:*" />
+        <preference name="deployment-target" value="11" />
+        <preference name="UseSwiftLanguageVersion" value="5" />
     </platform>
-    <plugin name="cordova-plugin-console" spec="~1.0.3" />
-    <plugin name="cordova-plugin-file" spec="~4.2.0" />
-    <plugin name="cordova-plugin-itunesfilesharing" spec="~0.0.1" />
-    <plugin name="cordova-plugin-screen-orientation" spec="~1.4.2" />
-
-	<plugin name="cordova-android-support-gradle-release" spec="^2.0.1">
-		<variable name="ANDROID_SUPPORT_VERSION" value="27.+" />
-	</plugin>
-
 </widget>
