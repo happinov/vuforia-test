@@ -1,6 +1,7 @@
 {
   "devDependencies": {
     "cordova": "^10.0.0",
+    "cordova-android": "^6.4.0",
     "cordova-android-support-gradle-release": "^2.1.0",
     "cordova-plugin-file": "^6.0.2",
     "cordova-plugin-itunesfilesharing": "0.0.2",
@@ -13,7 +14,8 @@
   },
   "cordova": {
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "cordova-plugin-whitelist": {},
@@ -26,6 +28,7 @@
       "cordova-plugin-add-swift-support": {},
       "cordova-plugin-layouthelper": {},
       "cordova-plugin-package-json-guard": {},
+      "cordova-plugin-vuforia-sdk-8-6-10": {},
       "cordova-plugin-vuforia": {}
     }
   },

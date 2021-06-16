@@ -29,3 +29,7 @@ indent_size = 2
 # avoid tabs in mapnik style because they cause strange compilation errors
 indent_style = space
 indent_size = 2
+
+[config.xml]
+indent_style = space
+indent_size = 4

@@ -22,11 +22,12 @@ var app = {
 	},
 	onDeviceReady: function() {
 		console.log("L'appareil est prêt");
-		screen.lockOrientation('landscape');
+		screen.lockOrientation('portrait-primary');
 
 		function startAR() {
 			console.log("VUFORIA START AR!");
 			var folderPath = getPath('StonesAndChips');
+			console.log('>>>>>> Using path:',folderPath);
 //			 var folderPath = getPath('plugintest4');
 
 			var options = {
